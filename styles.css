@@ -86,14 +86,78 @@ header > h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
+  color: #ff0065;
+  background-color: #ffb58a;
+  font-weight: bold;
   padding: 10px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
 
 #item-1:hover #NasiGorengTitle {
+  opacity: 1;
+}
+
+#item-2 {
+  position: relative;
+}
+
+#OmeletTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff0065;
+  background-color: #ffb58a;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#item-2:hover #OmeletTitle {
+  opacity: 1;
+}
+
+#item-3 {
+  position: relative;
+}
+
+#SateAyamTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff0065;
+  background-color: #ffb58a;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#item-3:hover #SateAyamTitle {
+  opacity: 1;
+}
+
+#item-4 {
+  position: relative;
+}
+
+#SopAyamTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff0065;
+  background-color: #ffb58a;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#item-4:hover #SopAyamTitle {
   opacity: 1;
 }
 
