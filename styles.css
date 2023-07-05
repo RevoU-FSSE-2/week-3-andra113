@@ -285,3 +285,8 @@ header > h1 {
   font-size: 16px;
   cursor: pointer;
 }
+
+footer {
+  text-align: center;
+  background: linear-gradient(to right, #ffb58a, #ff0065);
+}
