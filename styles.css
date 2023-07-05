@@ -3,6 +3,25 @@
   src: url(font/Norse.otf);
 }
 
+@keyframes colorize {
+  from {
+     filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0%);
+  }
+ 
+}
+
+img {
+  filter: grayscale(100%);
+  transition: filter 2s ease-in-out;
+}
+
+img:hover {
+  animation: colorize 1s forwards;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
